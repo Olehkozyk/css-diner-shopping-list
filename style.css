@@ -1,0 +1,82 @@
+body{
+	font: 400 26px/1.3 "Tebuchet MC", Tebuchet, Arial, sans-serif;
+	color: #F9F9F9;
+	background: #3B3F45;
+	margin: 0;
+}
+.ba-header, .ba-footer{
+	background: #4A4F56;
+	text-align: center;
+	padding: 20px 0;
+	color: #EB7E7D;
+
+}
+.ba-header h1{
+	font-size: 36px;
+	font-weight: 600px;
+	margin: 0;
+}
+.ba-header h4{
+	font-size: 24px;
+	font-weight: 400px;
+	margin: 0;
+}
+.ba-container{
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 40px 20px;
+}
+
+.ba-shopping-list label{
+	display: block;
+	cursor: pointer;
+	padding: 15px;
+}
+.ba-shopping-list{
+	list-style: none;
+	padding: 0;
+	margin: 0 0 40px;
+	
+	}
+.ba-shopping-list [type="checkbox"]{
+	width: 26px;
+	height: 26px;
+	vertical-align: middle;
+	position: relative;
+	cursor: pointer;
+	margin-right: 10px;
+}
+.ba-discription{
+	font-size: 60%;
+	color: inherit;
+	vertical-align: middle; 
+}
+
+.ba-shopping-list  [type='checkbox']:checked + span {
+	text-decoration: line-through;
+	color: #A3A0B5;
+}
+.ba-shopping-list li{
+	background: #7A7593;
+	border: 0 solid #fff;
+}
+.ba-shopping-list li:nth-child(odd) {
+	background: #88839E;
+}
+.ba-shopping-list li:hover{
+	background: #625E77;
+	border-width: 4px 0; 
+
+}
+.ba-shopping-list li:active{
+	background: #EB7E7f;	
+}
+.ba-discription:before{
+	content: '  (';
+}
+.ba-discription:after{
+	content: ')';
+}
+p{
+	margin: 0;
+}
